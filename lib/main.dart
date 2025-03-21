@@ -326,7 +326,7 @@ class PaymentScreen extends StatelessWidget {
       onPressed: () {
         Navigator.pop(context);
         ScaffoldMessenger.of(context).showSnackBar(
-          SnackBar(content: Text('Payment Successful via $method!')),
+          SnackBar(content: Text('okkyy via $method!')),
         );
       },
       child: Row(
